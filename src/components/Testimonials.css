@@ -72,6 +72,8 @@
     height: auto;
     display: block;
     border-radius: 32px;
+    image-rendering: high-quality;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 /* Right Text */

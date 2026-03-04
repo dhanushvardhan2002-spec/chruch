@@ -51,7 +51,7 @@ const FAQ = () => {
                     <div className="faq-image-wrapper">
                         <div className="faq-image-card">
                             <img
-                                src="/images/faq-doctor.jpg"
+                                src="/images/female.png"
                                 alt="Doctor with question"
                                 className="faq-image"
                                 onError={(e) => e.target.src = 'https://via.placeholder.com/400x350/d91e6e/ffffff?text=FAQ+Doctor'}

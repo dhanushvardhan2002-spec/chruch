@@ -69,7 +69,9 @@ const Process = () => {
                                 src={step.image}
                                 alt={step.title}
                                 className="step-image"
-                                onError={(e) => e.target.src = `https://via.placeholder.com/500x400/1a5f5a/ffffff?text=${step.title.replace(/ /g, '+')}`}
+                                width="600"
+                                height="400"
+                                onError={(e) => e.target.src = `https://via.placeholder.com/600x400/1a5f5a/ffffff?text=${step.title.replace(/ /g, '+')}`}
                             />
                         </div>
                     </div>

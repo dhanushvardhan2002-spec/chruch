@@ -130,11 +130,14 @@
 }
 
 .step-image {
-    width: 100%;
-    height: auto;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
     border-radius: 28px;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
     display: block;
+    image-rendering: high-quality;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .step-badge {

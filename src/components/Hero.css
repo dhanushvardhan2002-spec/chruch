@@ -33,6 +33,8 @@
     max-width: 420px;
     height: auto;
     object-fit: contain;
+    image-rendering: high-quality;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 /* Hotspot */
@@ -157,6 +159,8 @@
     border: 2px solid white;
     margin-left: -6px;
     object-fit: cover;
+    image-rendering: high-quality;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .avatars img:first-child {

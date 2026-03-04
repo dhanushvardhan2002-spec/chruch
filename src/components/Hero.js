@@ -35,7 +35,7 @@ const Hero = () => {
                 {/* Left Side - Image */}
                 <div className="hero-image">
                     <img
-                        src="/images/runner.png"
+                        src="/images/runner2.png"
                         alt="Physiotherapy"
                         className="runner-image"
                         onError={(e) => {
